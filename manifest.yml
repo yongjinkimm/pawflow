@@ -1,11 +1,18 @@
 modules:
+  jira:globalPage:
+    - key: pawflow-global-page
+      resource: global
+      render: native
+      resolver:
+        function: resolver
+      title: PawFlow
   jira:issuePanel:
     - key: pawflow-issue-panel
       resource: main
       resolver:
         function: resolver
       render: native
-      title: pawflow
+      title: PawFlow
       icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
 
   function:
@@ -15,6 +22,8 @@ modules:
 resources:
   - key: main
     path: src/frontend/index.jsx
+  - key: global
+    path: src/global/index.jsx
 
 permissions:
   scopes:

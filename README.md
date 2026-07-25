@@ -2,6 +2,8 @@
 
 > Pet Care Workflow for Jira built with Atlassian Forge
 
+**Status:** MVP Complete · Production Deployed
+
 PawFlow는 반려동물 병원, 펫샵 등에서 반복적으로 수행되는 케어 업무를  
 **Jira Issue와 연결된 표준 체크리스트로 관리하는 Atlassian Forge 앱**입니다.
 
@@ -332,6 +334,24 @@ forge install
 
 ---
 
+### Production 배포
+
+Production 환경에 배포하려면 다음 명령어를 사용합니다.
+
+```bash
+forge deploy -e production
+```
+
+Production 버전을 Jira 사이트에 설치하려면:
+
+```bash
+forge install -e production
+```
+
+PawFlow는 Atlassian Forge의 Distribution Sharing을 통해 외부 Jira Cloud 사이트에도 설치할 수 있도록 배포되어 있습니다.
+
+> 외부 설치 시 대상 Jira Cloud 사이트의 관리자 권한이 필요합니다.
+
 ## 10. 구현 범위
 
 현재 MVP에서 구현한 기능:
@@ -387,6 +407,33 @@ MVP에서는 핵심 업무 흐름 검증에 집중하여 다음 기능은 구현
 AI가 제안한 결과를 그대로 사용하는 방식이 아니라, 실제 Forge/Jira 환경에서 실행 및 검증하면서 오류를 수정하고 요구사항에 맞게 구조를 변경하는 방식으로 활용했습니다.
 
 ---
+
+## 배포 상태
+
+PawFlow MVP는 Atlassian Forge Production 환경에 배포되었습니다.
+
+| 항목 | 상태 |
+|---|---|
+| Forge Development | 완료 |
+| Forge Production | 완료 |
+| Jira Cloud 설치 | 완료 |
+| External Sharing | 활성화 |
+| Installation Link | 제공 가능 |
+| Source Code | GitHub 공개 저장소 |
+| Privacy Policy | 제공 |
+
+### Installation
+
+PawFlow는 Forge Installation Link를 통해 다른 Jira Cloud 사이트에 설치할 수 있습니다.
+
+**Installation Link:**  
+https://developer.atlassian.com/console/install/476cb449-1063-4973-9ea2-07214da54ee2?signature=AYABeKhKSjdJCClwh80Osi9d0dcAAAADAAdhd3Mta21zAEthcm46YXdzOmttczp1cy13ZXN0LTI6NzA5NTg3ODM1MjQzOmtleS83MDVlZDY3MC1mNTdjLTQxYjUtOWY5Yi1lM2YyZGNjMTQ2ZTcAuAECAQB4IOp8r3eKNYw8z2v%2FEq3%2FfvrZguoGsXpNSaDveR%2FF%2Fo0BUO16TIXf2iUZ8IefSXzD2QAAAH4wfAYJKoZIhvcNAQcGoG8wbQIBADBoBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDHHIu%2FgQHz0H74DxogIBEIA7Z12cR4TaEYqCm7pqYRak8N6guQVOC8ywLD9v60KVkvAxBpgoNBITc6wE5NCaUcvbjJwpdbmjNR5%2FDVIAB2F3cy1rbXMAS2Fybjphd3M6a21zOmV1LXdlc3QtMTo3MDk1ODc4MzUyNDM6a2V5LzQ2MzBjZTZiLTAwYzMtNGRlMi04NzdiLTYyN2UyMDYwZTVjYwC4AQICAHijmwVTMt6Oj3F%2B0%2B0cVrojrS8yZ9ktpdfDxqPMSIkvHAEIMH0J41%2F%2F%2BWX1x8bNMVkmAAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMsH7riPRFedhXh1FzAgEQgDvykK2AuUSml8Tx05A0W%2FBF13i6JgA5%2B9bi4dhDPOBgRfZbOrPEVcOZ6PahzkTttGZexpsaj%2FR3KvcWQwAHYXdzLWttcwBLYXJuOmF3czprbXM6dXMtZWFzdC0xOjcwOTU4NzgzNTI0MzprZXkvNmMxMjBiYTAtNGNkNS00OTg1LWI4MmUtNDBhMDQ5NTJjYzU3ALgBAgIAeLKa7Dfn9BgbXaQmJGrkKztjV4vrreTkqr7wGwhqIYs5AcM2WS23sqNy3PUPui0KVnoAAAB%2BMHwGCSqGSIb3DQEHBqBvMG0CAQAwaAYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAwImJVLKh01R7xLw6YCARCAOyLNOGMf5YO6NK2WP5dDHIfw3ShQ54An3rUUAHwjbmhUEFeYannIX2RS0SWKMCe5jO6AOlLeG6gt4KhOAgAAAAAMAAAQAAAAAAAAAAAAAAAAAMiO7mJRppAxuFCQv6mrv2P%2F%2F%2F%2F%2FAAAAAQAAAAAAAAAAAAAAAQAAADLUOP%2Fghy%2BdHra5X6dCrudjshs%2BAI%2BkgHv7hBsQHNMPfttG9kJFekFqmYFijJtc1%2FuekCqe5nwJzbXDv5iX%2BXU7g20%3D&product=jira
+
+### Privacy
+
+PawFlow의 개인정보 처리방침은 다음 문서에서 확인할 수 있습니다.
+
+`PRIVACY.md`
 
 ## 13. 구현 목표
 
