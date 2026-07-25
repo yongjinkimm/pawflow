@@ -1,0 +1,28 @@
+modules:
+  jira:issuePanel:
+    - key: pawflow-issue-panel
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: pawflow
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+
+  function:
+    - key: resolver
+      handler: index.handler
+
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+
+permissions:
+  scopes:
+    - storage:app
+
+app:
+  runtime:
+    name: nodejs24.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/476cb449-1063-4973-9ea2-07214da54ee2
