@@ -13,7 +13,11 @@ import { invoke } from '@forge/bridge';
 
 const CARE_TYPE_LABELS = {
   health: '건강검진',
+  healthCheck: '건강검진',
+
   vaccine: '예방접종',
+  vaccination: '예방접종',
+
   grooming: '미용',
 };
 
