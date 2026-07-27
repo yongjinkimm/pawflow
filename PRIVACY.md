@@ -1,74 +1,75 @@
-# PawFlow Privacy Policy
+# PawFlow 개인정보 처리방침
 
-Last updated: July 26, 2026
+최종 수정일: 2026년 7월 27일
 
-## 1. Overview
+## 1. 개요
 
-PawFlow is an Atlassian Forge application that provides pet care workflow management within Jira.
+PawFlow는 Jira에서 반려동물 케어 업무를 관리하기 위해 개발된 Atlassian Forge 기반 애플리케이션입니다.
 
-This application was developed as a technical assignment and demonstration project.
+본 애플리케이션은 기술 과제 및 데모 프로젝트 목적으로 개발되었습니다.
 
-## 2. Data Collected
+## 2. 처리하는 정보
 
-PawFlow may store information entered by users while using the application, including:
+PawFlow는 사용자가 애플리케이션을 이용하면서 직접 입력하거나 생성한 다음 정보를 저장할 수 있습니다.
 
-- Pet type
-- Pet name
-- Owner name
-- Owner contact information
-- Pet notes or special care information
-- Care checklist status
-- Jira issue key associated with a care task
-- Care task update time
+- 반려동물 종류
+- 반려동물 이름
+- 보호자명
+- 보호자 연락처
+- 반려동물 특이사항 및 케어 관련 메모
+- 케어 체크리스트 진행 상태
+- 케어 업무와 연결된 Jira Issue Key
+- 케어 업무 마지막 저장 시간
 
-Users should avoid entering unnecessary sensitive personal information into the application.
+사용자는 서비스 이용에 필요하지 않은 민감한 개인정보를 입력하지 않아야 합니다.
 
-## 3. Purpose of Data Processing
+## 3. 정보 이용 목적
 
-The information is used only to provide PawFlow functionality, including:
+저장된 정보는 PawFlow의 다음 기능을 제공하기 위해 사용됩니다.
 
-- Managing registered pets
-- Displaying pet information during care workflows
-- Managing care checklists
-- Restoring saved checklist progress
-- Separating care tasks by Jira issue, pet, and care type
+- 반려동물 정보 등록, 조회 및 수정
+- 케어 업무에서 반려동물 정보 표시
+- 케어 유형별 체크리스트 관리
+- 저장된 체크리스트 진행 상태 복원
+- Jira Issue, 반려동물 및 케어 유형별 업무 상태 분리
+- Global Dashboard의 케어 업무 현황 표시
 
-## 4. Data Storage
+## 4. 정보 저장
 
-Application data is stored using Atlassian Forge storage services.
+PawFlow의 애플리케이션 데이터는 Atlassian Forge에서 제공하는 저장 서비스를 사용하여 저장됩니다.
 
-PawFlow does not operate a separate external database or server for storing application data.
+PawFlow는 애플리케이션 데이터를 저장하기 위한 별도의 외부 서버나 외부 데이터베이스를 운영하지 않습니다.
 
-Data is processed within the Atlassian Forge environment used by the application.
+애플리케이션 데이터는 PawFlow가 사용하는 Atlassian Forge 환경을 통해 처리됩니다.
 
-## 5. Data Sharing
+## 5. 제3자 제공
 
-PawFlow does not sell user data.
+PawFlow는 사용자 데이터를 판매하지 않습니다.
 
-PawFlow does not intentionally transmit stored application data to third-party advertising or analytics services.
+PawFlow는 저장된 애플리케이션 데이터를 광고 또는 분석 목적으로 제3자 서비스에 의도적으로 전송하지 않습니다.
 
-Data may be processed by Atlassian infrastructure as required for the operation of Jira and Atlassian Forge.
+단, Jira 및 Atlassian Forge 서비스 운영에 필요한 범위에서 Atlassian의 인프라를 통해 데이터가 처리될 수 있습니다.
 
-## 6. Data Retention and Deletion
+## 6. 보관 및 삭제
 
-Data entered into PawFlow may remain stored while the application is installed and the stored records remain in the application's Forge storage.
+PawFlow에 입력된 데이터는 애플리케이션이 설치되어 있고 해당 데이터가 Forge 저장소에 존재하는 동안 보관될 수 있습니다.
 
-The current MVP does not provide an in-app deletion feature for all stored data.
+현재 MVP에서는 저장된 모든 데이터를 사용자가 직접 삭제하는 기능을 제공하지 않습니다.
 
-As this is a demonstration project, users should not use PawFlow as a production system for storing sensitive or critical information.
+본 애플리케이션은 기술 과제 및 데모 프로젝트이므로 민감하거나 중요한 개인정보를 저장하는 실제 운영 시스템으로 사용하는 것을 권장하지 않습니다.
 
-## 7. Security
+## 7. 보안
 
-PawFlow uses Atlassian Forge APIs and storage services for its application functionality.
+PawFlow는 애플리케이션 기능 구현을 위해 Atlassian Forge API 및 저장 서비스를 사용합니다.
 
-No separate external backend or database is operated by PawFlow.
+PawFlow에서 별도의 외부 백엔드 서버나 데이터베이스를 운영하지 않습니다.
 
-## 8. Changes to This Policy
+## 8. 개인정보 처리방침 변경
 
-This privacy policy may be updated as PawFlow functionality changes.
+PawFlow의 기능 또는 데이터 처리 방식이 변경되는 경우 본 개인정보 처리방침도 변경될 수 있습니다.
 
-Updates will be published in this repository.
+변경된 내용은 프로젝트 저장소를 통해 공개합니다.
 
-## 9. Contact
+## 9. 문의
 
-For questions regarding this privacy policy or PawFlow, please use the contact information provided on the application's Atlassian installation page.
+PawFlow 및 개인정보 처리와 관련된 문의는 애플리케이션의 Atlassian 설치 페이지에 제공된 연락처를 통해 문의할 수 있습니다.
